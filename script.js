@@ -69,6 +69,15 @@ btnZerar.addEventListener("click", function(){
     valorContador.textContent = contador
 })
 
+//ALTERAR COR DO CONTADOR 
+if(contador > 0 ){
+    texto.getElementsById.contador("32, 36, 255")
+}else if(contador < 0){
+     document.body.classList.textContent.add("255, 32, 32")
+}else{
+    document.body.classList.add("#000")
+}
+
 
 
 //PEGAR INFORMAÇÃO POR CAMPO DE TEXTO
